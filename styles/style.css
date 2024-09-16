@@ -93,7 +93,7 @@
   position: relative;
 }
 
-.cover-content-title-1 {
+.cover-content-title-aligned-text {
   position: absolute;
   height: 115px;
   left: 50px;
@@ -101,32 +101,33 @@
   flex-direction: row;
 }
 
-.cover-content-title-1-2 {
+.cover-content-title-aligned-text-left {
   margin-left: 30px;
 }
 
-.cover-content-title-2 {
+.cover-content-title-сenter-aligned {
   position: absolute;
   display: flex;
   flex-direction: row;
   left: 336px;
   top: 135px;
+  
 }
 
-.cover-content-title-2-2 {
+.cover-content-title-indentation {
   margin-left: 30px;
 
 }
 
-.cover-content-title-3 {
+.cover-content-title-right-aligned {
   display: flex;
   flex-direction: row;
   position: absolute;
   left: 633px;
-  top: 270px;
+  top: 260px;
 }
 
-.cover-content-title-3-2 {
+.cover-content-title-right-aligned-indentation {
   margin-left: 30px;
 
 }
@@ -195,7 +196,7 @@
   justify-content: space-between;
 }
 
-.lot-1 {
+.lot-card-type-film {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/card-lot-01.jpg');
   background-size: cover;
   background-position: center;
@@ -217,13 +218,13 @@
   text-align: left;
 }
 
-.lot-2 {
+.lot-card-type-book {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/card-lot-02.jpg');
   background-size: cover;
   background-position: center;
 }
 
-.lot-3 {
+.lot-card-type-picture{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/card-lot-03.jpg');
   background-size: cover;
   background-position: center;
@@ -241,6 +242,7 @@
   display: flex;
   flex-direction: row;
   gap: 8px;
+
 }
 
 .about-logo {
@@ -251,7 +253,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 35px 0 0 47px;
+  margin: 35px 72px 0 47px;
 
 }
 
@@ -265,15 +267,18 @@
   font-weight: 700;
   line-height: 47px;
   text-transform: uppercase;
+  
 }
 
 .about-description {
-  margin-top: 137px;
+  margin-top: 146px;
   display: flex;
   flex-direction: column;
   row-gap: 100px;
   width: 693px;
-  margin-left: 72px;
+  margin-left: 24px;
+  margin-right: 24px;
+
 }
 
 .about-text {
@@ -293,6 +298,9 @@
   align-items: top;
   padding: 0 26px 0 26px;
   margin-bottom: 88px;
+  margin-top:180px;
+  margin-left:50px;
+  margin-right: 50px;
 }
 
 .footer-menu {
@@ -300,6 +308,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right:185px;
+  margin-left:185px;
 }
 
 .footer-menu-item:first-child {
