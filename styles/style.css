@@ -93,18 +93,18 @@
   flex-direction: column;
 }
 
-.cover-content-title-1 {
+.cover-content-title-text{
   display: block;
   flex-direction: row;
   letter-spacing: 0.3rem;
 }
 
-.cover-content-title-1-1 {
+.cover-content-title-letter{
   letter-spacing: 0.3em;
 }
 
 
-.cover-content-title-2 {
+.cover-content-title-center {
   margin-top: 9px;
   display: block;
   text-align: center;
@@ -112,15 +112,15 @@
 
 }
 
-.cover-content-title-2-1 {
+.cover-content-title-letterspace {
   letter-spacing: 0.3em;
 }
 
-.cover-content-title-2-2 {
+.cover-content-title-work {
   letter-spacing: 0.6em;
 }
 
-.cover-content-title-3 {
+.cover-content-title-right {
   display: block;
   text-align: right;
   letter-spacing: 0;
@@ -128,22 +128,22 @@
 
 }
 
-.cover-content-title-3-1 {
+.cover-content-title-class {
   letter-spacing: 2.3rem;
 
 }
 
-.cover-content-title-3-2 {
+.cover-content-title-line {
   letter-spacing: 0.4rem;
 
 }
 
-.cover-content-title-3-3 {
+.cover-content-title-base{
   letter-spacing: 0.3rem;
 
 }
 
-.cover-content-title-3-4 {
+.cover-content-title-way{
   letter-spacing: 0em;
 
 }
@@ -216,7 +216,7 @@
   background-position: center;
 }
 
-.lot-1 {
+.lot-film{
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/card-lot-01.jpg');
 }
 
@@ -236,11 +236,11 @@
   text-align: left;
 }
 
-.lot-2 {
+.lot-book {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/card-lot-02.jpg');
 }
 
-.lot-3 {
+.lot-pic {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/card-lot-03.jpg');
 }
 
