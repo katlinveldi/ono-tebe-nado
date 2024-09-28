@@ -24,6 +24,10 @@
 
 }
 
+.cir-type{
+  list-style-type:circle;
+
+}
 .menu-item:first-child {
   list-style-type: none;
 }
@@ -36,7 +40,7 @@
 .logo {
   width: 148px;
   height: 105px;
-  margin-right: 184px
+  margin-right: 184px;
 }
 
 .contacts {
@@ -47,8 +51,9 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
-  letter-spacing: 1%;
+  letter-spacing: 0.01em;
   margin-left: 5px;
+  font-style: normal; 
 }
 
 .contacts-link {
@@ -199,6 +204,7 @@
   display: flex;
   flex-direction: row;
   column-gap: 25px;
+  row-gap:25px;
   flex-wrap: wrap;
   list-style-type: none;
 
